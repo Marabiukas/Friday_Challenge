@@ -1,0 +1,80 @@
+body > nav {
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+body > nav > img:first-child {
+    width: 68px;
+    height: 34px;
+    display: block;
+    margin-top: 52px;
+    margin-left: 16px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+body > nav > img:nth-child(2) {
+    margin-top: 32px;
+    width: 89px;
+    height: 57px;
+    display: block;
+    margin-left: 11px;
+    margin-bottom: 34px;
+}
+
+body > nav > img:nth-child(3) {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 37px;
+    position: absolute;
+    top: 158px;
+}
+
+body > nav > img:nth-child(4) {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 37px;
+    margin-bottom: 34px;
+}
+
+body > nav > img:nth-child(5) {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 37px;
+    margin-bottom: 34px;
+}
+
+body > nav > img:nth-child(6) {
+    width: 40px;
+    height: 25px;
+    display: block;
+    margin-left: 30px;
+}
+
+body > nav:hover {
+    width: 206px;
+    transition: width 2s;
+}
+
+body > nav > img:first-child:hover {
+    margin-top: 44px;
+    margin-left: 69px;
+}
+
+body > footer1 {
+    position: absolute;
+    bottom: 35px;
+    left: 547px; 
+}
+
+body > footer2 {
+    position: absolute;
+    bottom: 11px;
+    left: 626px; 
+}
