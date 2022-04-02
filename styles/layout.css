@@ -6,55 +6,15 @@ body > nav {
     bottom: 0;
 }
 
-body > nav > img:first-child {
+body > nav > img {
     width: 68px;
     height: 34px;
     display: block;
     margin-top: 52px;
     margin-left: 16px;
+    margin-bottom: 32px;
     padding-bottom: 24px;
-    border-bottom: 2px solid #c4c4c4;
-}
-
-body > nav > img:nth-child(2) {
-    margin-top: 32px;
-    width: 89px;
-    height: 57px;
-    display: block;
-    margin-left: 11px;
-    margin-bottom: 34px;
-}
-
-body > nav > img:nth-child(3) {
-    width: 25px;
-    height: 25px;
-    display: block;
-    margin-left: 37px;
-    position: absolute;
-    top: 158px;
-}
-
-body > nav > img:nth-child(4) {
-    width: 25px;
-    height: 25px;
-    display: block;
-    margin-left: 37px;
-    margin-bottom: 34px;
-}
-
-body > nav > img:nth-child(5) {
-    width: 25px;
-    height: 25px;
-    display: block;
-    margin-left: 37px;
-    margin-bottom: 34px;
-}
-
-body > nav > img:nth-child(6) {
-    width: 40px;
-    height: 25px;
-    display: block;
-    margin-left: 30px;
+    border-bottom: 2px solid var(--pilksva);
 }
 
 body > nav:hover {
@@ -62,9 +22,114 @@ body > nav:hover {
     transition: width 2s;
 }
 
-body > nav > img:first-child:hover {
+body > nav:hover > img {
     margin-top: 44px;
-    margin-left: 69px;
+    margin-left: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 2s;
+}
+
+.home {
+    background-color: var(--balta);
+    height: 57px;
+    margin-left: 11px;
+    margin-bottom: 34px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+}
+
+.home img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 32px;
+    position: absolute;
+    top: 16px;
+}
+
+.home a {
+    position: absolute;
+    top: 20px;
+    left: 76px;
+    color: var(--melsva);
+    display: none;
+}
+
+nav:hover .home a {
+    display: inline;
+}
+
+.calendar {
+    position: relative;
+}
+
+.calendar img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 37px;
+    margin-bottom: 34px;  
+}
+
+.calendar a {
+    position: absolute;
+    top: 4px;
+    left: 81px;
+    color: var(--pilksva);
+    display: none;
+}
+
+nav:hover .calendar a {
+    display: inline;
+}
+
+.fe {
+    position: relative;
+}
+
+.fe img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 37px;
+    margin-bottom: 34px;  
+}
+
+.fe a {
+    position: absolute;
+    top: 4px;
+    left: 81px;
+    color: var(--pilksva);
+    display: none;
+}
+
+nav:hover .fe a {
+    display: inline;
+}
+
+.games {
+    position: relative;
+}
+
+.games img {
+    width: 40px;
+    height: 25px;
+    display: block;
+    margin-left: 30px;  
+}
+
+.games a {
+    position: absolute;
+    top: 4px;
+    left: 89px;
+    color: var(--pilksva);
+    display: none;
+}
+
+nav:hover .games a {
+    display: inline;
 }
 
 body > footer1 {
